@@ -1,0 +1,211 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body, .navbar, .sectionHeader span{
+	font-family: "Montserrat", sans-serif;
+	background-color: #f2f2f2;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+nav{
+	width: 100%;
+}
+.spacer{
+	height: 25px;
+}
+
+.mainTop {
+    height: 100vh;  
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background: url('../images/code.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.navbar-left{
+	font-size: 1.8em;
+}
+
+#navButton{
+	color: black;
+}
+
+#name, .mainTop, .fa-hand-o-down,
+.fa-div, .headerDiv{
+	text-align: center;
+}
+
+.social-fa, nav a{
+	color: #262626;
+}
+
+#name{
+	font-size: 45px;
+	margin-top: 35px;
+	font-weight: bold;
+}
+
+.glyphicon-chevron-down, #name{
+	color: #f2f2f2;
+}
+
+.glyphicon-chevron-down{
+	font-size: 65px;
+	-webkit-animation: bounce 2.5s infinite;
+	-moz-animation: bounce 2.5s infinite;
+	-ms-animation: bounce 2.5s infinite;
+	-o-animation: bounce 2s infinite;
+	animation: bounce 2s infinite;
+}
+
+#portrait{
+	height: 150px;
+	width: 150px;
+	opacity: 0;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+
+
+#downFromTop{
+  	height: 200px;
+  	line-height: 200px;
+  	margin-top: 50px;
+}
+
+#secondPort{
+	height: 400px;
+}
+
+#secondMain{
+	margin-top: 120px;
+}
+
+#secondSection{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.fa-div{
+	font-size: 27px;
+	margin-top: 20px;
+}
+
+.social-fa{
+	text-decoration: none;
+}
+
+.workBlock{
+	overflow: hidden;
+}
+.projectImg{
+	height: 200px;
+	width: 250px;
+}
+
+.workBlock{
+	margin-top: 25px;
+}
+
+.projectImg p a{
+	text-decoration: underline;
+	color: white;
+}
+
+#firstWork{
+	background-image: url(../images/stopwatch.png);
+	background-size: 250px 200px;
+}
+
+#secondWork{
+	background-image: url(../images/counterMock.png);
+	background-size: 250px 200px;
+}
+
+#thirdWork{
+	background-image: url(../images/rgbhex.png);
+	background-size: 250px 200px;
+}
+
+#fourthWork{
+	background-image: url(../images/bb8.png);
+	background-size: 250px 200px;
+}
+
+#fithWork{
+	background-image: url(http://placehold.it/250x200);
+}
+
+#sixWork{
+	background-image: url(http://placehold.it/250x200);
+}
+
+.show-title{
+	color: #FFFFFF;
+	background: black;
+	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
+	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
+	background: -ms-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
+	background: -o-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
+	padding: 7px;
+	line-height: 20px;
+	width: 250px;
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	height: 30px;
+	transition: height .5s;
+	-webkit-transition: height .5s;
+	-moz-transition: height .5s;
+	-ms-transition: height .5s;
+	-o-transition: height .5s;
+}
+
+
+#thirdSection{
+	padding-bottom: 150px;	
+}
+
+.divider{
+	height: 3px;
+	background-color: #CCCCCC;
+}
+
+#map{
+	height: 375px;	
+}
+
+.headerDiv{
+	margin-top: 50px;
+}
+
+.headerDiv{
+	margin: 35px 0 20px 0; 
+	}
+
+.aboutPara{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+
+@keyframes bounce{
+	0% { 
+		transform: translate3d(0px, 0px, 0px);
+	}
+	50%{
+		transform: translate3d(0px, 25px, 0px);
+	}
+	100% {
+		transform: translate3d(0px, 0px, 0px);
+	}
+}
