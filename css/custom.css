@@ -19,7 +19,7 @@ nav{
 }
 
 .mainTop {
-    height: 100vh;  
+    height: 100vh;
     padding-top: 80px;
     padding-bottom: 50px;
     background: url('../images/code.jpg') no-repeat center center fixed;
@@ -141,11 +141,13 @@ nav{
 }
 
 #fithWork{
-	background-image: url(http://placehold.it/250x200);
+	background-image: url(../images/mortcalc.png);
+	background-size: 250px 200px;
 }
 
 #sixWork{
-	background-image: url(http://placehold.it/250x200);
+	background-image: url(../images/randquotes.png);
+	background-size: 250px 200px;
 }
 
 .show-title{
@@ -172,7 +174,7 @@ nav{
 
 
 #thirdSection{
-	padding-bottom: 150px;	
+	padding-bottom: 150px;
 }
 
 .divider{
@@ -181,7 +183,7 @@ nav{
 }
 
 #map{
-	height: 375px;	
+	height: 375px;
 }
 
 .headerDiv{
@@ -189,7 +191,7 @@ nav{
 }
 
 .headerDiv{
-	margin: 35px 0 20px 0; 
+	margin: 35px 0 20px 0;
 	}
 
 .aboutPara{
@@ -199,7 +201,7 @@ nav{
 
 
 @keyframes bounce{
-	0% { 
+	0% {
 		transform: translate3d(0px, 0px, 0px);
 	}
 	50%{
