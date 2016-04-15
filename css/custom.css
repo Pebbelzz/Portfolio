@@ -182,6 +182,10 @@ nav{
 	background-color: #CCCCCC;
 }
 
+#skill-list{
+	list-style: none;
+}
+
 #map{
 	height: 375px;
 }
